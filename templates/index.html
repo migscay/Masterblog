@@ -15,6 +15,7 @@
         <p><em>Written by {{post['author']}}</em></p>
         <p>{{post['content']}}<br><br>
         <a href="{{url_for('delete', id=post['id'])}}">Delete</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="{{url_for('update', id=post['id'])}}">Update</a>
     </div>
     <br><br>
